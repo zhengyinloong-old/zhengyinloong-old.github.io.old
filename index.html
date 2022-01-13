@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="canvas.js"></script>
+	<title>ZhengYinloong</title>
+</head>
+<body>
+<header class="page_head">
+	<div class="top_bar">
+		<a class="top_bar logo" href=""><img class="top_bar logo img" src="resource/image/logo.jpg" alt="加载失败"></a>
+		<span class="welcome">Welcome to my page!</span>
+		<ul class="top_bar list">
+			<li><a href="" target="_blank">Home Page</a></li>
+			<li><a href="" target="main_area">Recent</a></li>
+			<li><a href="" target="main_area">Blogs</a></li>
+			<li><a href="resource/video/test.mp4" target="main_area">Resources</a></li>
+		</ul>
+	</div>
+</header>
+<section class="page_body">
+	<div class="side_bar">
+		<canvas class="time_bar" id="cvs_clock"></canvas>
+		<script type="text/javascript">draw_clock("cvs_clock");</script>
+	</div>
+	<div class="main_look">
+		<span id="subarea">Resources</span>
+		<iframe class="layer2" name="main_area" src="" frameborder="0"></iframe>
+	</div>
+</section>
+<footer class="page_foot">
+	<div class="bgm_bar">
+			<span class="bgm_text">BGM</span>
+			<audio class="bgm_clr" src="resource/audio/See You Again.mp3" controls autoplay></audio>
+		</div>
+	<span class="page_foot copy">&copy; 2022 ZhengYinloong</span>
+</footer>
+</body>
+</html>

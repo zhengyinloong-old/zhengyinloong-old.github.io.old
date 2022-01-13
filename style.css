@@ -1,0 +1,160 @@
+/* This style.css file is easy but powerful. */
+body,
+div,
+ul{
+	margin: 0 auto;
+	font-family: "微软雅黑";
+}
+body{
+	min-width: 950px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+ul{
+	list-style: none;
+	text-indent: 0em;
+}
+a,
+ul,
+li{
+	display: inline-block;
+}
+header{
+	background-color: black;
+	color: white;
+}
+.top_bar{
+	text-align: center;
+	width: 100%;
+	height: 80px;
+	vertical-align: middle;
+}
+.top_bar.logo{
+	margin: 5px;
+	display: inline-block;
+	float: left;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}
+.welcome{
+	margin: 10px 0px 10px 10px;
+	display: inline-block;
+	float: left;
+	width: 20%;
+	height: 60px;
+	line-height: 60px;
+	font-size: 15px;
+}
+.top_bar.list{
+	margin: 10px 0;
+	display: inline-block;
+	float: right;
+	padding: 0;
+	width: 50%;
+	min-width: 475px;
+	height: 60px;
+	background: rgba(255,255,255,0);
+}
+li{
+	display: inline-block;
+	width: auto;
+	padding: 0px 10px;
+	line-height: 40px;
+	border: 2px solid white;
+	border-radius: 12px;
+	font-size: 20px;
+	margin: 10px 2px;
+}
+a:hover{
+	color: greenyellow;
+	text-decoration: underline;
+}
+.page_body{
+	height: 600px;
+	margin: 10px 0 1px 0;
+	background-color: #53575b;
+  background-image: linear-gradient(180deg, #53575b 76%, #000000 100%);
+}
+.side_bar{
+	display: block;
+	width:20%;
+	height: 90%;
+	margin: 10px 0 0 5px;
+	background-color: black;
+	border-radius: 15px;
+	float: left;
+	text-align: center;
+}
+.time_bar{
+	display: inline-block;
+	margin: 10px 0;
+	width: 100%;
+	border-radius: 400px;
+}
+.main_look{
+	display: inline-block;
+	float:right;
+	width:75%;
+	height: 90%;
+	border-radius: 15px;
+	margin: 10px 5px 0 0;
+	background-color: black;
+	text-align: center;
+}
+#subarea{
+	display: block;
+	width: 100%;
+	height: 10%;
+	color: greenyellow;
+	font-size: 30px;
+}
+.layer2{
+  display: block;
+  width: 100%;
+  height: 90%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.page_foot{
+	height: 100px;
+	background-color: black;
+	text-align: center;
+}
+.bgm_bar{
+	display: inline-block;
+	width: 400px;
+  height: 100px;
+	margin: 0 auto;
+	color: white;
+  float: left;
+}
+.bgm_text{
+	display: inline-block;
+  height: 40px;
+	margin: 30px 5px;
+	font-size: 30px;
+	float: left;
+	clear: both;
+}
+.bgm_clr{
+
+  display: inline-block;
+	margin: 30px 10px;
+  width: 290px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 30px;
+}
+
+.page_foot.copy{
+	display: inline-block;
+  height: 40px;
+	border:none;
+	margin: 30px 30px;
+	color: white;
+	float: right;
+}
